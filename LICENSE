@@ -1,0 +1,50 @@
+MrSmart — Source-Available License (All Rights Reserved)
+
+Copyright (c) 2026 Youssef Salem Hassan. All rights reserved.
+
+This repository is public so people can read the code and suggest
+improvements. Being able to see the code does not give you the right to use
+it. This is not an open-source license.
+
+1. What you may do
+   a. View and read the source code on the hosting platform (GitHub).
+   b. Fork the repository on that platform, and make changes in your fork,
+      solely to prepare and submit a contribution (issue, suggestion or pull
+      request) back to this repository.
+
+2. What you may not do without prior written permission from the copyright
+   holder
+   a. Use, run, install or deploy the software or any part of it, for any
+      purpose, commercial or not, other than as allowed in section 1.
+   b. Copy, modify, merge, publish, distribute, sublicense or sell the
+      software or any part of it, or build products or services from it.
+   c. Use the name "MrSmart" or the copyright holder's name to promote
+      anything.
+
+3. Contributions
+   By submitting a contribution (code, documentation, design, translation,
+   issue text or suggestion), you:
+   a. grant the copyright holder a perpetual, worldwide, irrevocable,
+      royalty-free, non-exclusive license to use, copy, modify, publish,
+      distribute, sublicense, relicense and sell your contribution, as part
+      of this project or otherwise;
+   b. confirm the contribution is your own work, or that you have the right
+      to grant the license above, and that it contains no third-party
+      secrets or confidential material;
+   c. understand that you receive no payment, ownership or other rights in
+      the project because of the contribution.
+
+4. Third-party components
+   Files that come from third parties keep their own licenses, which take
+   precedence for those files:
+   - Tajawal font (assets/fonts/Tajawal-*.ttf): SIL Open Font License 1.1,
+     see assets/fonts/OFL.txt.
+   - Dependencies listed in pubspec.yaml: their own licenses.
+
+5. No warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM,
+   DAMAGES OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
+
+To ask for permission (for example to use MrSmart in a project), open an
+issue on the repository.
