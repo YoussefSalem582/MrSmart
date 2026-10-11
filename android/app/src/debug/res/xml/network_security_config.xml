@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DEBUG BUILD ONLY. Cleartext is needed to reach Home Assistant at
+     http://<lan-address>:8123 while learning. Certificate validation is
+     unchanged: only the platform's trusted CAs are accepted for HTTPS. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
