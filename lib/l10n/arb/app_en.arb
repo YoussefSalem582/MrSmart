@@ -1,0 +1,281 @@
+{
+  "@@locale": "en",
+  "appTitle": "MrSmart",
+  "welcomeTitle": "Control one room. Learn how smart homes work.",
+  "welcomeBody": "Start with a simulated room — no hardware, account or server needed. Connect your own Home Assistant when you're ready.",
+  "tryDemo": "Try demo",
+  "connectHomeAssistant": "Connect to Home Assistant",
+  "settings": "Settings",
+  "roomTitle": "My room",
+  "modeDemo": "Demo",
+  "modeHomeAssistant": "Home Assistant",
+  "modeNone": "Not set up",
+  "simulatedBadge": "Simulated",
+  "simulatedNotice": "Simulated data — not real device telemetry.",
+  "connectionConnecting": "Connecting…",
+  "connectionConnected": "Live",
+  "connectionReconnecting": "Offline — retrying in {seconds}s (attempt {attempt})",
+  "@connectionReconnecting": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      },
+      "attempt": {
+        "type": "int"
+      }
+    }
+  },
+  "connectionDisconnected": "Offline — controls are disabled",
+  "connectionAuthFailed": "Access token rejected. Reconfigure the connection in Settings.",
+  "valueOn": "On",
+  "valueOff": "Off",
+  "valueUnknown": "Unknown",
+  "valueUnavailable": "Unavailable",
+  "deviceRemoved": "Removed from the source",
+  "deviceLoading": "Waiting for first state…",
+  "lastConfirmed": "Last confirmed {time}",
+  "@lastConfirmed": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "staleNote": "Last known value · confirmed {time}",
+  "@staleNote": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "commandPendingOn": "Turning on… waiting for confirmation",
+  "commandPendingOff": "Turning off… waiting for confirmation",
+  "commandFailedOn": "Turn on failed: {reason}",
+  "@commandFailedOn": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "commandFailedOff": "Turn off failed: {reason}",
+  "@commandFailedOff": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "commandUnconfirmedTimeout": "Not confirmed: the device didn't report the new state in time.",
+  "commandUnconfirmedConnection": "Not confirmed: the connection dropped before the device reported back.",
+  "controlHintOffline": "Controls are disabled while offline.",
+  "kindLight": "Light",
+  "kindSwitch": "Switch",
+  "kindInputBoolean": "Helper toggle",
+  "kindTemperature": "Temperature",
+  "leaveRoom": "Leave room",
+  "leaveRoomExplain": "Turns off only this room's selected devices. The app has to be open to run it. Anything that must happen on its own — on a schedule or when a sensor triggers — belongs in a Home Assistant automation.",
+  "leaveRoomConfirm": "Turn off room devices",
+  "leaveRoomRunning": "Turning off and waiting for confirmation…",
+  "leaveRoomAllOff": "All selected devices are confirmed off.",
+  "leaveRoomPartial": "Not everything turned off. Check each device below.",
+  "leaveRoomNotConnected": "You're offline, so nothing was sent.",
+  "leaveRoomNothing": "This room has no controllable devices.",
+  "leaveOutcomeConfirmed": "Off (confirmed)",
+  "leaveOutcomeAlreadyOff": "Already off",
+  "leaveOutcomeFailed": "Failed",
+  "leaveOutcomeUnconfirmed": "Not confirmed",
+  "leaveOutcomeSkipped": "Skipped",
+  "close": "Close",
+  "cancel": "Cancel",
+  "retry": "Retry",
+  "activityTitle": "Recent activity",
+  "activityEmpty": "Nothing yet.",
+  "activityCommandSentOn": "{device}: turn on requested",
+  "@activityCommandSentOn": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "activityCommandSentOff": "{device}: turn off requested",
+  "@activityCommandSentOff": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "activityConfirmed": "{device}: confirmed {value}",
+  "@activityConfirmed": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "activityFailed": "{device}: command failed",
+  "@activityFailed": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "activityUnconfirmed": "{device}: not confirmed",
+  "@activityUnconfirmed": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "activityExternal": "{device} changed to {value} outside the app",
+  "@activityExternal": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "activityReading": "{device}: new reading {value}",
+  "@activityReading": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "activityUnavailable": "{device} became unavailable",
+  "@activityUnavailable": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "activityRemoved": "{device} was removed",
+  "@activityRemoved": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "activityConnectionLost": "Connection lost",
+  "activityReconnected": "Reconnected — states refreshed",
+  "demoControlsTitle": "Demo controls",
+  "demoControlsHint": "These fake real-world events so you can watch how the app reacts. Nothing here touches a real device.",
+  "demoGoOffline": "Disconnect",
+  "demoGoOnline": "Reconnect",
+  "demoFailNext": "Fail next command",
+  "demoDropNext": "Drop next confirmation",
+  "demoArmed": "Armed",
+  "demoFlip": "Flip {device} from outside",
+  "@demoFlip": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "demoMakeUnavailable": "Make {device} unavailable",
+  "@demoMakeUnavailable": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "demoMakeAvailable": "Make {device} available",
+  "@demoMakeAvailable": {
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "demoNudgeTemperature": "New temperature reading",
+  "failureNetwork": "Can't reach the server. Check the address and that the phone is on the same network.",
+  "failureTimeout": "The server took too long to respond.",
+  "failureTls": "Secure connection failed: the certificate isn't trusted.",
+  "failureAuth": "Access token rejected. Check that it's complete and not revoked.",
+  "failurePermission": "This account isn't allowed to do that.",
+  "failureNotFound": "Not found at the source.",
+  "failureInvalidUrl": "Enter a valid address, e.g. http://homeassistant.local:8123",
+  "failureInsecureUrl": "This build only accepts https:// addresses. Plain HTTP is allowed in debug builds for local learning only.",
+  "failureNotConnected": "Not connected.",
+  "failureServer": "Home Assistant returned an error.",
+  "failureSimulated": "simulated failure (demo control)",
+  "settingsLanguage": "Language",
+  "settingsTheme": "Theme",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "languageEnglish": "English",
+  "languageArabic": "العربية",
+  "settingsMode": "Mode",
+  "currentMode": "Current: {mode}",
+  "@currentMode": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      }
+    }
+  },
+  "switchToDemo": "Switch to demo",
+  "chooseDevices": "Choose room devices",
+  "reconfigureConnection": "Reconfigure connection",
+  "leaveMode": "Back to start",
+  "disconnectErase": "Disconnect and erase credentials",
+  "disconnectEraseBody": "The address, access token and room selection are deleted from this device. Also revoke the token in Home Assistant if you no longer need it.",
+  "erase": "Erase",
+  "credentialsErased": "Credentials erased.",
+  "connectTitle": "Connect to Home Assistant",
+  "connectIntro": "MrSmart talks directly to your Home Assistant on your local network. There's no MrSmart server.",
+  "haUrlLabel": "Home Assistant address",
+  "haUrlHint": "http://homeassistant.local:8123",
+  "haTokenLabel": "Long-lived access token",
+  "haTokenHelp": "Create one in Home Assistant: your profile → Security → Long-lived access tokens. It can do everything your account can, so prefer a dedicated test user.",
+  "haTokenRequired": "Paste the access token.",
+  "showToken": "Show token",
+  "hideToken": "Hide token",
+  "insecureHttpWarning": "HTTP is unencrypted: anyone on the network can read the token. Use it only on your own home network for learning — never over the internet.",
+  "testAndSave": "Test and save",
+  "testing": "Testing connection…",
+  "connectedTo": "Connected to {name} (Home Assistant {version})",
+  "@connectedTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "selectTitle": "Choose room devices",
+  "selectSafety": "Pick a lamp or similar non-critical load. Don't use switches that run heaters, pumps, medical, security or other safety-critical equipment with this learning app.",
+  "selectHint": "Only the entities you tick are shown and controlled. Nothing else in your home is touched.",
+  "selectSave": "Use {count} selected",
+  "@selectSave": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "selectEmpty": "No supported entities found. Supported: lights, switches, input booleans and temperature sensors.",
+  "errorTitle": "Something went wrong"
+}
